@@ -1,5 +1,6 @@
 
 ```
+git clone https://github.com/wpjscc/gogs-drone
 sudo docker-compose up
 ```
 
@@ -39,8 +40,8 @@ cat /var/log/drone-runner-exec/log.txt
 ## 使用
 
 * 进入 http://127.0.0.1:3000 (gogs) 同步此仓库，https://github.com/wpjscc/gogs-drone-nginx
-* 进入 http://127.0.0.1:8000（drone），点击同步按钮，看到同步的项目后，进入点击活动项目
-* 第一次需进入http://127.0.0.1:3000 找到项目，手动同步下webhook，后面就可以自动运行了
+* 进入 http://127.0.0.1:8000,（drone），点击同步按钮，看到同步的项目后，进入点击活动项目
+* 第一次需进入http://127.0.0.1:3000 ,找到项目，手动同步下webhook，后面就可以自动运行了
 * 部署成功访问http://127.0.0.1:8080 (nginx)
 
 ## done
