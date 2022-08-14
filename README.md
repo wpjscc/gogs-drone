@@ -25,7 +25,7 @@ mkdir /var/log/drone-runner-exec
 
 vi /etc/drone-runner-exec/config
 DRONE_RPC_PROTO=http
-DRONE_RPC_HOST=10.8.0.8:8000
+DRONE_RPC_HOST=127.0.0.1:8000
 DRONE_RPC_SECRET=gjO9kVnS7PdixaGF
 DRONE_LOG_FILE=/var/log/drone-runner-exec/log.txt
 
